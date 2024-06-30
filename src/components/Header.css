@@ -1,0 +1,33 @@
+.adminHeader {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 0 20px;
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+}
+
+.adminHeader-logo {
+  font-size: 1.5em;
+}
+
+.adminHeader-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.adminHeader-links li {
+  display: inline;
+}
+
+.adminHeader-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.adminHeader-links a:hover {
+  text-decoration: underline;
+}
