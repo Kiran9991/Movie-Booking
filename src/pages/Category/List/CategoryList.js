@@ -7,11 +7,9 @@ const CategoryList = () => {
   return (
     <Fragment>
       <h4>List of Categories</h4>
-      <ul>
-        {categories.map((item) => (
-          <li key={Math.random()}>{item}</li>
-        ))}
-      </ul>
+      {categories.map((item) => (
+        <ul key={Math.random()}>{item}</ul>
+      ))}
     </Fragment>
   );
 };

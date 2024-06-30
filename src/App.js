@@ -4,7 +4,8 @@ import Login from "./pages/Auth/Login";
 import Dashboard from "./pages/Dashboard";
 import Sidebar from "./components/Sidebar";
 import './App.css';
-import AddCategory from "./pages/Category/AddCategoryForm";
+import Category from "./pages/Category/Category";
+import Movie from "./pages/Movie/Movie";
 
 
 function App() {
@@ -15,8 +16,11 @@ function App() {
         <Route path="/admin-login">
           <Login />
         </Route>
-        <Route path="/add-category">
-          <AddCategory/>
+        <Route path="/category">
+          <Category/>
+        </Route>
+        <Route path='/movie'>
+          <Movie/>
         </Route>
         <Route path="/">
           <Dashboard />

@@ -1,8 +1,7 @@
-import React, { Fragment, useRef } from "react";
+import React, { useRef } from "react";
 import { useDispatch } from 'react-redux';
-import { categoryActions } from "../../store/categorySlice";
+import { categoryActions } from "../../../store/categorySlice";
 import "./AddCategoryForm.css";
-import CategoryList from "./CategoryList";
 
 const AddCategory = () => {
   const category = useRef();
@@ -16,8 +15,6 @@ const AddCategory = () => {
   };
 
   return (
-    <Fragment>
-      <div style={{ marginLeft: '5rem'}}>
       <form onSubmit={formSubmitHandler} className="categoryForm">
         <label className="categoryFormLabel">Category</label>
         <input className="categoryFormInput" type="text" ref={category} />
@@ -25,9 +22,6 @@ const AddCategory = () => {
           Add Category
         </button>
       </form>
-      <CategoryList/>
-      </div>
-    </Fragment>
   );
 };
 

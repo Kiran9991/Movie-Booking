@@ -22,8 +22,8 @@ const Sidebar = () => {
       <li><Link to="/dashboard">Dashboard</Link></li>
         <li><Link to="/user-login">User Login</Link></li>
         <li><Link to="/admin-login">Admin Login</Link></li>
-        <li><Link to="/add-category">Add Category</Link></li>
-        <li><Link to="/add-movie">Add Movie</Link></li>
+        <li><Link to="/category">Add Category</Link></li>
+        <li><Link to="/movie">Add Movie</Link></li>
         <li><Link to="/showtime-management">Showtime Management</Link></li>
         <li><Link to="/booked-movies">Booked Movies</Link></li>
       </ul>
