@@ -4,7 +4,7 @@ import Login from "./pages/Auth/Login";
 import Dashboard from "./pages/Dashboard";
 import Sidebar from "./components/Sidebar";
 import './App.css';
-import AddCategory from "./pages/Category/AddCategory";
+import AddCategory from "./pages/Category/AddCategoryForm";
 
 
 function App() {
