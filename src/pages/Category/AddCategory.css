@@ -1,0 +1,39 @@
+/* AddCategory.css */
+.categoryForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.categoryFormLabel {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.categoryFormInput[type="text"] {
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.categoryFormButton {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3fc51e;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.categoryFormButton:hover {
+  background-color: #69f546;
+}
