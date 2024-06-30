@@ -1,4 +1,3 @@
-// src/features/counterSlice.js
 
 import { createSlice } from '@reduxjs/toolkit';
 
